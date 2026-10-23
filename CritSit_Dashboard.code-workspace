@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "CritSit_Dashboard_Test",
+			"path": "."
+		},
+		{
+			"name": "data",
+			"path": "../data"
+		}
+	],
+	"settings": {}
+}
