@@ -12,7 +12,8 @@ const BUG_AREAS = new Set([
 ]);
 const grp = (col, owner, areas) => ({ col, owner, areas: areas || [col] });
 const GROUPS = [
-  grp('PPS Strategy', 'go'), grp('Congestion', 'go'), grp('PPF', 'go'), grp('Order Pool', 'go'), grp('OWT', 'go'),
+  grp('R2R - PPS Strategy', 'go', ['PPS Strategy']), grp('R2R - Congestion', 'go', ['Congestion']), grp('R2R - PPF', 'go', ['PPF']),
+  grp('R2R - Order Pool', 'go', ['Order Pool']), grp('R2R - OWT', 'go', ['OWT']),
   grp('Configuration / Productivity', 'go', ['Configuration', 'Configuration Issue', 'UPH', 'Solution Config', 'Product Config']),
   grp('GO Infra', 'go', ['Infrastructure Resource & Capacity issues', 'GO Network Issue']),
   grp('Inconclusive', 'go', ['More Info Required', 'None / Invalid Issue / No Issue Found', 'Additional Information Required', 'No Issue Found']),
